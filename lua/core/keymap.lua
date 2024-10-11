@@ -27,9 +27,9 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 keymap.set("n", "<leader>c", ":NvimTreeFindFile<CR>")
 -- 切换buffer
-keymap.set("n", "<C-O>", ":bnext<CR>")
-keymap.set("n", "<C-I>", ":bprevious<CR>")
+keymap.set("n", "<leader>o", ":bnext<CR>")
+keymap.set("n", "<leader>i", ":bprevious<CR>")
 -- 关闭buffer
-keymap.set("n", "<C-X>", ":bdelete<CR>")
+keymap.set("n", "<leader>x", ":bdelete<CR>")
 -- markdown
 keymap.set("n","<leader>m", ":MarkdownPreview<CR>")
