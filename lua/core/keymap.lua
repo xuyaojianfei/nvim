@@ -12,24 +12,17 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- ---------- 正常模式 ---------- ---
 -- 窗口
-keymap.set("n", "<leader>sv", "<C-W>v")
-keymap.set("n", "<leader>sh", "<C-W>s")
-
--- 添加空白行
-keymap.set("n", "<leader>o", "o<ESC>")
-keymap.set("n", "<leader>O", "O<ESC>")
+keymap.set("n", "<leader>nv", "<C-W>v")
+keymap.set("n", "<leader>ns", "<C-W>s")
 
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
 -- ---------- 插件 ---------- ---
--- nvim-tree
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
-keymap.set("n", "<leader>c", ":NvimTreeFindFile<CR>")
 -- 切换buffer
-keymap.set("n", "<leader>o", ":bnext<CR>")
-keymap.set("n", "<leader>i", ":bprevious<CR>")
+keymap.set("n", "<leader>ni", ":bprevious<CR>")
+keymap.set("n", "<leader>no", ":bnext<CR>")
 -- 关闭buffer
 keymap.set("n", "<leader>x", ":bdelete<CR>")
 -- markdown
-keymap.set("n","<leader>m", ":MarkdownPreview<CR>")
+keymap.set("n", "<leader>m", ":Glow<CR>")
