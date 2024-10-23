@@ -20,5 +20,6 @@ return {
       home = "~/leetcode",
       cache = "~/leetcode",
     },
+    lang = "python",
   },
 }
