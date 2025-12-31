@@ -47,4 +47,5 @@ return {
       )
     end,
   },
+  'fedepujol/move.nvim',
 }
