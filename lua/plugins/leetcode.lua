@@ -21,5 +21,6 @@ return {
       cache = "~/leetcode",
     },
     lang = "python3",
+    -- image_support = true
   },
 }
